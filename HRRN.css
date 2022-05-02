@@ -2,9 +2,11 @@ body {
     font-family: 'Noto Serif Display', serif;
     font-weight: 400;
     text-align: center;
+    background: rgb(238,174,202);
+    background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
-.header {
+.header, .fill-in {
     border-style:solid;
     border-radius: 15px;
     box-shadow: 0 0 10px 0 rgb(63, 63, 63);
@@ -13,18 +15,12 @@ body {
     margin-bottom: 10px;
     margin-right: 30%;
     margin-left: 30%;
+    background-color: white;
 }
 
 .fill-in {
-    border-style:solid;
-    border-radius: 15px;
-    box-shadow: 0 5px 10px 0 rgb(63, 63, 63);
     display: block;
     padding: 5%;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-right: 30%;
-    margin-left: 30%; 
 }
 
 table, th, td {
